@@ -1,7 +1,7 @@
 import 'dart:math';
 
 void logAtLeast5(final int n) {
-  for (int i = 0; i <= max(5, n); i++) {
+  for (int i = 1; i <= max(5, n); i++) {
     print(i);
   }
 }
