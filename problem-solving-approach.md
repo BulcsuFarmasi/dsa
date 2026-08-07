@@ -16,7 +16,24 @@ Write a function which takes two numbers and returns their sum
 
 5. How should I label the important pieces of data that are a part of the problem?
 
+
+
 ## Explore Concrete Examples
+
+    Write a functionwhich takes in a string and return counts of each character in the string
+
+    - Start with Simple Examples
+        - charCount("aaaa"); // {a:4, b:0, c:0}
+        - charCount("hello"); // {h:1,e:1,l:2, o:1}
+    - Progress to More Complex Examples
+        - "my phone number is 182763"
+        - "Hello hi"
+    - Explore Examples with Empty Inputs
+        charCount()
+        charCount("")
+    - Explore Examples with Invalid Inputs
+        charCount(1)
+
 
 ## Break It Down
 
