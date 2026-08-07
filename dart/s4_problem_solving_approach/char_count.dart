@@ -1,4 +1,5 @@
 Map<String, int> charCount(final String str) {
-    // do something
-    // return an object with key that are lowercase alphanumberic characters in the string; value should be be the counts for those characters
+    // make object
+    // loop over string
+    // return object at end
 }
