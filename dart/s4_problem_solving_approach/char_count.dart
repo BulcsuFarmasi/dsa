@@ -3,7 +3,7 @@ Map<String, int> charCount(final String str) {
     final Map<String, int> result = {};
     // loop over string, for each character
     for (int i = 0; i < str.length; i++) {
-      final String char = str[i];
+      final String char = str[i].toLowerCase();
       // if the char is a number / letter AND a key in object, add one to count
       if (result[char] != null) {
         result[char] = result[char]! + 1;
