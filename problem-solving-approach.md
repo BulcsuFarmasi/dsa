@@ -40,3 +40,10 @@ Write a function which takes two numbers and returns their sum
 ## Solve/Simplify
 
 ## Look Back and Refactor
+    - Can I check the result?
+    - Can I derive the result differently?
+    - Can you understand it at a glance?
+    - Can I use the result or method for some other problem?
+    - Can I improve the performance of your solution?
+    - Can I think of other ways to refactor?
+    - How have other people solved this problem?
