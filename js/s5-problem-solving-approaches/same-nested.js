@@ -58,4 +58,4 @@ function same(arr1, arr2) {
 
 
 
-console.log(same([1,2,"3"], [1,2,3]));
+console.log(same([1,2,3], [4,9,1]));
