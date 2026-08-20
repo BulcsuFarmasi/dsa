@@ -2,7 +2,7 @@ List<int>? sumZero(List<int> list) {
   int left = 0;
   int right = list.length - 1;
 
-  while(left < right) {
+  while (left < right) {
     final int sum = list[left] + list[right];
     if (sum == 0) {
       return [list[left], list[right]];
@@ -12,8 +12,10 @@ List<int>? sumZero(List<int> list) {
       left++;
     }
   }
+
+  return null;
 }
 
 void main() {
-  print(sumZero([-12,-8,-5,1,2,5,7,10]));
+  print(sumZero([-12, -8, -5, 1, 2, 5, 7, 10]));
 }

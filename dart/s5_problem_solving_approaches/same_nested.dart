@@ -23,5 +23,5 @@ bool same(List<int> list1, List<int> list2) {
 }
 
 void main(List<String> args) {
-  print(same([4,4,2], [16, 4]));
+  print(same([4, 4, 2], [16, 4]));
 }

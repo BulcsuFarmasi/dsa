@@ -6,6 +6,6 @@ void logAtLeast5(final int n) {
   }
 }
 
-void main () {
+void main() {
   logAtLeast5(2);
 }

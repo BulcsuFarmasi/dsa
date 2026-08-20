@@ -12,7 +12,7 @@ bool validAnagram(String word1, String word2) {
   }
 
   for (int j = 0; j < word2.length; j++) {
-    final String char = word2[j] ;
+    final String char = word2[j];
     frequencyCounter2[char] = (frequencyCounter2[char] ?? 0) + 1;
   }
 

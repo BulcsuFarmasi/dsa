@@ -8,6 +8,6 @@ int addUpTo(int n) {
   return total;
 }
 
-void main () {
+void main() {
   print(addUpTo(100));
 }

@@ -1,5 +1,3 @@
-
-
 void countUpAndDown(int n) {
   print("Going up!");
   for (int i = 0; i < n; i++) {
@@ -12,6 +10,6 @@ void countUpAndDown(int n) {
   print("Back down. Bye!");
 }
 
-void main () {
+void main() {
   countUpAndDown(4);
 }

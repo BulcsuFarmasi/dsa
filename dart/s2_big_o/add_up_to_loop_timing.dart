@@ -8,7 +8,7 @@ int addUpTo(int n) {
   return total;
 }
 
-void main () {
+void main() {
   final Stopwatch stopwatch = Stopwatch()..start();
   addUpTo(1000000000);
   stopwatch.stop();

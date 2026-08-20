@@ -17,17 +17,17 @@ bool same(List<int> list1, List<int> list2) {
   }
 
   for (int key in frequencyCounter1.keys) {
-    if (!frequencyCounter2.containsKey(pow(key, 2)) ) {
+    if (!frequencyCounter2.containsKey(pow(key, 2))) {
       return false;
     }
-    if (frequencyCounter2[pow(key,2)] != frequencyCounter1[key]) {
+    if (frequencyCounter2[pow(key, 2)] != frequencyCounter1[key]) {
       return false;
     }
   }
 
   return true;
- }
+}
 
- void main(List<String> args) {
-  print(same([1,2,3,4], [4,9,1,15]));
+void main(List<String> args) {
+  print(same([1, 2, 3, 4], [4, 9, 1, 15]));
 }

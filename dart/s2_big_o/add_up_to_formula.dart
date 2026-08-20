@@ -2,6 +2,6 @@ int addUpTo(int n) {
   return (n * (n + 1) / 2).toInt();
 }
 
-void main () {
+void main() {
   print(addUpTo(6));
 }

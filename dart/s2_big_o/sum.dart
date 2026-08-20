@@ -7,6 +7,6 @@ int sum(final List<int> list) {
   return total;
 }
 
-void main () {
-  print(sum([4,5,2]));
+void main() {
+  print(sum([4, 5, 2]));
 }
