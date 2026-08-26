@@ -6,6 +6,6 @@ void logAtMost5(final int n) {
   }
 }
 
-void main () {
+void main() {
   logAtMost5(100);
 }

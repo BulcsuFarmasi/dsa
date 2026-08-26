@@ -6,6 +6,6 @@ void printAllPairs(final int n) {
   }
 }
 
-void main () {
+void main() {
   printAllPairs(11);
 }

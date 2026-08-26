@@ -3,7 +3,7 @@ Map<String, int> charCount(final String str) {
   for (int i = 0; i < str.length; i++) {
     String char = str[i].toLowerCase();
     if (isAlphaNumeric(char)) {
-        result[char] = (result[char] ?? 0) + 1;
+      result[char] = (result[char] ?? 0) + 1;
     }
   }
 
@@ -12,10 +12,11 @@ Map<String, int> charCount(final String str) {
 
 bool isAlphaNumeric(final String char) {
   final int code = char.codeUnitAt(0);
-      if (!(code > 47 && code < 58) &&// numeric
-        !(code > 96 && code < 123)) { // lower alpha
-        return false;
-    }
+  if (!(code > 47 && code < 58) && // numeric
+      !(code > 96 && code < 123)) {
+    // lower alpha
+    return false;
+  }
   return true;
 }
 

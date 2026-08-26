@@ -6,6 +6,6 @@ List<int> double(final List<int> list) {
   return newList;
 }
 
-void main () {
-  print(double([4,77,13]));
+void main() {
+  print(double([4, 77, 13]));
 }
