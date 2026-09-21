@@ -17,7 +17,7 @@ bool constructNote(String message, String letters) {
 
   for (String frequency in messageFrequency.keys) {
     if (letterFrequency[frequency] == null ||
-        letterFrequency[frequency] != messageFrequency[frequency]) {
+        letterFrequency[frequency]! < messageFrequency[frequency]!) {
       return false;
     }
   }
@@ -26,5 +26,5 @@ bool constructNote(String message, String letters) {
 }
 
 void main() {
-  print(constructNote('aabbcc', 'bcabcaddff'));
+  print(constructNote('skbjjjvnnd', 'fdjlkjfeburevjvnfnsjckjncjdnchbechbadhsd'));
 }

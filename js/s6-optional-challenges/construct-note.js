@@ -32,10 +32,14 @@ function constructNote(message, letters) {
     for (let letter of letters) {
         letterFrequency[letter] = (letterFrequency[letter] || 0) + 1;
     }
+    
+    console.log(messageFrequency, letterFrequency);
+    
+
 
     for (let frequency in messageFrequency) {
          
-        if (!letterFrequency[frequency] || letterFrequency[frequency] != messageFrequency[frequency]) {
+        if (!letterFrequency[frequency] || letterFrequency[frequency] < messageFrequency[frequency]) {
             return false;
         }
     }
@@ -44,4 +48,4 @@ function constructNote(message, letters) {
     return true;
 }
 
-console.log(constructNote('aabbcc', 'bcabcaddff'));
+console.log(constructNote('skbjjjvnnd', 'fdjlkjfeburevjvnfnsjckjncjdnchbechbadhsd'));
